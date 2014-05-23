@@ -73,16 +73,190 @@ public class MainServlet extends HttpServlet {
   public static final String CONTACT_NAME = "Java Quick Start";
 
   private static final String PAGINATED_HTML =
+/*
       "<article class='auto-paginate'>"
-      + "<h2 class='blue text-large'>Did you know...?</h2>"
-      + "<p>Cats are <em class='yellow'>solar-powered.</em> The time they spend napping in "
-      + "direct sunlight is necessary to regenerate their internal batteries. Cats that do not "
-      + "receive sufficient charge may exhibit the following symptoms: lethargy, "
-      + "irritability, and disdainful glares. Cats will reactivate on their own automatically "
-      + "after a complete charge cycle; it is recommended that they be left undisturbed during "
-      + "this process to maximize your enjoyment of your cat.</p><br/><p>"
-      + "For more cat maintenance tips, tap to view the website!</p>"
-      + "</article>";
+      + "<h2 class='blue text-large'>California Lottery Results</h2>"
+      + "<p>Tap to<em class='yellow'>VIEW</em>Public Website"
+      + "powerball/winning-numbers"
+      + "link : Draw Entry is Closed Results Coming Soon!"
+      +"mega-millions/winning-numbers"
+        +"link : 37 46 48 70 74 1"
+        +"superlotto-plus/winning-numbers"
+        +"link : Draw Entry is Closed Results Coming Soon!"
+        +"fantasy-5/winning-numbers"
+        +"link : 1 2 13 26 33"
+        +"daily-4/winning-numbers"
+        +"link : 3 5 8 8"
+        +"daily-3/winning-numbers"
+        +"link : 1 3 4"
+        +"link : 4 4 3"
+        + "California Lottery, tap to view the website!</p>"
+        + "</article>";
+  */
+  //--------------------------------------------------------------------------
+  
+  /*
+  "<article>"
+  +"<section>"
+    +"<table class=\"align-justify\">"
+      +"<tbody>"
+        +"<tr>"
+          +"<td>PowerBall</td>"
+          +"<td><font size=\"3\">37 46 48 70 74 </font></td>"
+          +"<td class=\"red\">1</td>"
+        +"</tr>"
+        +"<tr>"
+          +"<td>MegaMillion</td>"
+          +"<td>37 46 48 70 74 1</td>"
+          +"<td class=\"green\">1</td>"
+        +"</tr>"
+        +"<tr>"
+          +"<td>GOOG</td>"
+          +"<td>727.58</td>"
+          +"<td class=\"red\">-12.41 (1.68%)</td>"
+        +"</tr>"
+      +"</tbody>"
+    +"</table>"
+  +"</section>"
++"</article>";
+  
+  */
+          /*
+          "<article class=\"cover-only\">"
+  +"<section>"
+    +"<p class=\"text-auto-size\">California Lottery</p>"
+  +"</section>"
+  +"<footer>"
+    +"<p>Hover to scroll</p>"
+  +"</footer>"
++"</article>"
++"<article class=\"auto-paginate\">"
+  +"<ul class=\"text-x-small\">"
+        +"<ul class=\"text-x-medium\">"  
+    +"<li>PowerBall</li>"
+        +"/ul>"
+    +"<li>37 46 48 70 74 1</li>"
+    +"<li>MegaMillion</li>"
+    +"<li>37 46 48 70 74 1</li>"
+    +"<li>Fifth item</li>"
+    +"<li>Sixth item</li>"
+    +"<li>Seventh item</li>"
+    +"<li>Eigth item</li>"
+    +"<li>Ninth item</li>"
+    +"<li>Tenth item</li>"
+  +"/ul>"
++"</article>";
+  */
+  
+  
+  
+  
+  
+  
+  "<ul class=\"draw_games show_win_num clearfix\">"            
+                    +"<li class=\"clearfix\">"
+                       +"<a href=\"http://www.calottery.com/play/draw-games/powerball/Winning-Numbers/\">"
+                            +"<img src=\"http://static.sc-www.calottery.com/~/media/Play/draw_games/Powerball/powerball_logo_landing_page.png\" alt=\"logo for landing image\" width=\"172\" height=\"91\">"
+                        +"</a>   "                 
+    +"<div class=\"info\">"
+        +"<p>"
+           +" <a href=\"http://www.calottery.com/play/draw-games/powerball/winning-numbers\" class=\"see-all\">  "                
+            +"</a>"
+       +" </p> "    
+       +" <ul class=\"winning_number\">"
+           +" <li>37 46 48 70 74 1</li>"
+       +" </ul>"
+   +" </div>"
+                    +"</li>   " 
+          
+          +"<li class=\"clearfix\">"
+                       +"<a href=\"http://www.calottery.com/play/draw-games/powerball/Winning-Numbers/\">"
+                            +"<p><img src=\"http://static.sc-www.calottery.com/~/media/Play/draw_games/Mega-Millions/megamillions_landing_page_logo.png\" alt=\"logo for landing image\" width=\"172\" height=\"91\">37 46 48 70 74 1</td></p>"
+                        +"</a>   "                 
+    +"<div class=\"info\">"
+        +"<p>"
+           +" <a href=\"http://www.calottery.com/play/draw-games/powerball/winning-numbers\" class=\"see-all\">  "                
+            +"</a>"
+       +" </p> "    
+       +" <ul class=\"winning_number\">"
+           +" <li>4563535</li>"
+       +" </ul>"
+   +" </div>"
+                    +"</li>   " 
+       +" </ul>";
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      /*    
+         
+ "<section>"
+          +"<div class=\"info\">"
+        +"<p>"
+            +"<a href=\"http://www.calottery.com/play/draw-games/powerball/winning-numbers\" class=\"see-all\"> "                
+            +"</a>"
+        +"</p>"
+       +" <p> "          
+        +"<ul class=\"winning_number\">"
+            +"<li><span>4</span></li><li><span>20</span></li><li><span>34</span></li><li><span>39</span></li><li><span>58</span></li><li class=\"bullseye\"><span>31</span></li>"
+       +" </ul>"
+   +"</div>"
+  +"</section>";
+
+    */      
+          
+    
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+  
+  
+  
+  
+   //  private static final String bundleId = 
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
   /**
    * Do stuff when buttons on index.jsp are clicked
@@ -140,10 +314,11 @@ public class MainServlet extends HttpServlet {
       LOG.fine("Inserting Timeline Item");
       TimelineItem timelineItem = new TimelineItem();
       timelineItem.setHtml(PAGINATED_HTML);
+    //  timelineItem.setBundleId(bundleId);
 
       List<MenuItem> menuItemList = new ArrayList<MenuItem>();
       menuItemList.add(new MenuItem().setAction("OPEN_URI").setPayload(
-          "https://www.google.com/search?q=cat+maintenance+tips"));
+          "http://www.calottery.com/win/winning-numbers"));
       timelineItem.setMenuItems(menuItemList);
 
       // Triggers an audible tone when the timeline item is received
@@ -215,6 +390,7 @@ public class MainServlet extends HttpServlet {
       } else {
         TimelineItem allUsersItem = new TimelineItem();
         allUsersItem.setText("Hello Everyone!");
+        //allUsersItem.setBundleId(bundleId);
 
         BatchRequest batch = MirrorClient.getMirror(null).batch();
         BatchCallback callback = new BatchCallback();
