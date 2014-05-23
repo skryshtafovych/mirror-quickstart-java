@@ -121,70 +121,49 @@ public class MainServlet extends HttpServlet {
 +"</article>";
   
   */
-          /*
+          
           "<article class=\"cover-only\">"
   +"<section>"
-    +"<p class=\"text-auto-size\">California Lottery</p>"
+    +"<p class=\"text-auto-size\"><img src=\"http://static.sc-www.calottery.com/~/media/HomePage/logo-calottery.png\" alt=\"logo for landing image\" width=\"340\" height=\"180\" align=\"center\">"
+          
+          + "</p>"
+          
   +"</section>"
   +"<footer>"
-    +"<p>Hover to scroll</p>"
+    +"<p>Tap for more Options</p>"
   +"</footer>"
-+"</article>"
-+"<article class=\"auto-paginate\">"
-  +"<ul class=\"text-x-small\">"
-        +"<ul class=\"text-x-medium\">"  
-    +"<li>PowerBall</li>"
-        +"/ul>"
-    +"<li>37 46 48 70 74 1</li>"
-    +"<li>MegaMillion</li>"
-    +"<li>37 46 48 70 74 1</li>"
-    +"<li>Fifth item</li>"
-    +"<li>Sixth item</li>"
-    +"<li>Seventh item</li>"
-    +"<li>Eigth item</li>"
-    +"<li>Ninth item</li>"
-    +"<li>Tenth item</li>"
++"</article>"+
+"<article class=\"auto-paginate\">"
+ +" <li class=\"clearfix\">"
+          
+          
+          //this IS WHERE I HAVE THE CARD GENEEREATED
+                       +" <a href=\"http://www.calottery.com/play/draw-games/powerball/Winning-Numbers/\">"
+                            +"<img src=\"http://static.sc-www.calottery.com/~/media/Play/draw_games/Powerball/powerball_logo_landing_page.png\" alt=\"logo for landing image\" width=\"170\" height=\"90\" align=\"middle\"><FONT COLOR=\"white\"> <FONT SIZE=5>37 46 48 70 74 1"
+                       +" </a>"
+
+                   +" </li>"
   +"/ul>"
 +"</article>";
-  */
   
   
   
   
   
-  
-  "<ul class=\"draw_games show_win_num clearfix\">"            
-                    +"<li class=\"clearfix\">"
-                       +"<a href=\"http://www.calottery.com/play/draw-games/powerball/Winning-Numbers/\">"
-                            +"<img src=\"http://static.sc-www.calottery.com/~/media/Play/draw_games/Powerball/powerball_logo_landing_page.png\" alt=\"logo for landing image\" width=\"172\" height=\"91\">"
-                        +"</a>   "                 
-    +"<div class=\"info\">"
-        +"<p>"
-           +" <a href=\"http://www.calottery.com/play/draw-games/powerball/winning-numbers\" class=\"see-all\">  "                
-            +"</a>"
-       +" </p> "    
-       +" <ul class=\"winning_number\">"
-           +" <li>37 46 48 70 74 1</li>"
-       +" </ul>"
-   +" </div>"
-                    +"</li>   " 
+  /*
           
-          +"<li class=\"clearfix\">"
-                       +"<a href=\"http://www.calottery.com/play/draw-games/powerball/Winning-Numbers/\">"
-                            +"<p><img src=\"http://static.sc-www.calottery.com/~/media/Play/draw_games/Mega-Millions/megamillions_landing_page_logo.png\" alt=\"logo for landing image\" width=\"172\" height=\"91\">37 46 48 70 74 1</td></p>"
-                        +"</a>   "                 
-    +"<div class=\"info\">"
-        +"<p>"
-           +" <a href=\"http://www.calottery.com/play/draw-games/powerball/winning-numbers\" class=\"see-all\">  "                
-            +"</a>"
-       +" </p> "    
-       +" <ul class=\"winning_number\">"
-           +" <li>4563535</li>"
-       +" </ul>"
-   +" </div>"
-                    +"</li>   " 
+          SIMPLEST BEST YET
+   "<ul class=\"draw_games show_win_num clearfix\">"
+            
+                   +" <li class=\"clearfix\">"
+                       +" <a href=\"http://www.calottery.com/play/draw-games/powerball/Winning-Numbers/\">"
+                            +"<img src=\"http://static.sc-www.calottery.com/~/media/Play/draw_games/Powerball/powerball_logo_landing_page.png\" alt=\"logo for landing image\" width=\"170\" height=\"90\" align=\"middle\"><FONT COLOR=\"white\"> <FONT SIZE=5>37 46 48 70 74 1"
+                       +" </a>"
+
+                   +" </li>"
+                
        +" </ul>";
-  
+  */
   
   
   
